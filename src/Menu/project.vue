@@ -30,6 +30,9 @@ import berandaImg from '../assets/dashboard.png'
 import profilImg from '../assets/profilsantri.png'
 import laporanImg from '../assets/laporan.png'
 import detailImg from '../assets/detail_laporan.png'
+import replikaImg from '../assets/replika-sklh.png'
+import templateImg from '../assets/template-vue3.png'
+import implemenImg from '../assets/implementasi-template.png'
 export default {
   data() {
     return {
@@ -63,6 +66,23 @@ export default {
           title: 'Detail Laporan',
           description: 'Membuat halaman Detail Laporan dengan HTML & CSS',
           image: detailImg,
+        },
+        {
+          title: 'Replika Web Sekolah',
+          description:
+            'Membuat replika web sekolah SMKN 6 Malang dengan HTML, CSS, Javascript & Vue 3',
+          image: replikaImg,
+        },
+        {
+          title: 'Template Website Dengan Vue 3',
+          description: 'Membuat template sebuah website dengan HTML, CSS, Javascript & Vue 3',
+          image: templateImg,
+        },
+        {
+          title: 'Website Sekolah Dengan Vue 3',
+          description:
+            'Modifikasi template Vue 3 dengan konten SMKN 6 Malang berbasis HTML, CSS, dan JavaScript',
+          image: implemenImg,
         },
       ],
     }
